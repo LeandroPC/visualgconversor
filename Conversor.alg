@@ -4,7 +4,7 @@ algoritmo "Conversor"
 var
 celsius: real
 fahrenheit: real
-usa: real
+EUA: real
 br: real
 dolar:real
 opcao: inteiro
@@ -37,13 +37,13 @@ enquanto sim  <= 1 faca
    caso = 3
       escreval ("Informe o valor em real")
       leia (br)
-      usa <- dolar * br
-      escreval ("O valor em dolar é: ",usa)
+      EUA <- dolar * br
+      escreval ("O valor em dolar é: ",EUA)
 
    caso = 4
       escreval ("Informe o valor em dolar")
-      leia (usa)
-      br <- usa / dolar
+      leia (EUA)
+      br <- EUA / dolar
       escreval ("seu valor em real é : ",br)
    outrocaso
       escreval ("Opção escolha invalida")
