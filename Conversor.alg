@@ -37,13 +37,13 @@ enquanto sim  <= 1 faca
    caso = 3
       escreval ("Informe o valor em real")
       leia (br)
-      EUA <- dolar * br
+      EUA <- br / dolar
       escreval ("O valor em dolar é: ",EUA)
 
    caso = 4
       escreval ("Informe o valor em dolar")
       leia (EUA)
-      br <- EUA / dolar
+      br <- EUA * dolar
       escreval ("seu valor em real é : ",br)
    outrocaso
       escreval ("Opção escolha invalida")
